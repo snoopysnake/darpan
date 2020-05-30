@@ -8,25 +8,20 @@
 
 .sun-container {
   height: 280px;
+  margin: 20px 0;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-right: 150px;
-}
-
-.sun {
-  width: 240px;
-  height: auto;
-  position: absolute;
+  margin-right: 20px;
 }
 
 .sun-glow {
   width: 135px;
   height: 135px;
   border-radius:50%;	
-  background:rgba(255,255,255,.75);
-  box-shadow: 0px 0px 120px 75px white;  
+  background:rgba(255,255,255,.5);
+  box-shadow: 0px 0px 150px 100px white;  
   position: absolute;
 }
 
@@ -34,9 +29,11 @@
   font-size: 4.5em;
   font-weight: bold;
   line-height: 1.5;
+  color: #174196;
 }
 
 .title {
   font-size: 2em;
   font-style: italic;
+  color: #174196;
 }

@@ -1,13 +1,13 @@
 import React from 'react';
-import Sun from './Sun';
-import Header from './Header';
+import Header from './Header/Header';
+import Summary from './Summary/Summary';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <Sun />
       <Header />
+      <Summary />
     </div>
 
   );

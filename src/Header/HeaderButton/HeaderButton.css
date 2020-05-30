@@ -1,6 +1,6 @@
 button {
   width: 225px;
-  height: 160px;
+  height: 150px;
   margin: 0 10px;
   background-color: Transparent;
   background-repeat:no-repeat;
@@ -9,7 +9,6 @@ button {
   overflow: hidden;
   outline:none;
   font-size: 1.25em;
-  color: #737dde;
   font-family: "roboto slab", helvetica, sans-serif;
 }
 
@@ -21,9 +20,15 @@ button:hover {
 
 .button-text {
   width: 225px;
-  height: 160px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
+  text-decoration: none;
+  color: #737dde;
+}
+
+.button-text:visited {
+  color: #737dde;
 }

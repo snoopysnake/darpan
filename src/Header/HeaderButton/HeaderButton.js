@@ -5,10 +5,10 @@ class HeaderButton extends React.Component {
   render() {
     return (
       <button>
-  <div className="button-text">{ this.props.text }</div>
-        { this.props.render() }
+        <a className="button-text" href={`#${this.props.text.toLowerCase()}`}>{this.props.text}</a>
+        {this.props.render()}
       </button>
-  );
+    );
   }
 }
 
