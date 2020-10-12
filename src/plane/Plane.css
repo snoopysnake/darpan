@@ -3,7 +3,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  animation: pass 1s linear;
 }
 
 .plane {
@@ -68,6 +67,6 @@ a {
 }
 
 @keyframes pass {
-  0% { transform: translate(100%); }
+  0% { transform: translate(50%); }
   100% { transform: translate(0); }
 }

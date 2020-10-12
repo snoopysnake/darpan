@@ -1,10 +1,16 @@
 import React from 'react';
 import './Plane.css';
 import { Link } from 'react-scroll';
+import { useInView } from 'react-intersection-observer';
 
 function Plane(props) {
+  const { ref, inView } = useInView({
+    threshold: 0,
+    triggerOnce: true
+  });
+
   return (
-    <div className="plane-component">
+    <div className={'plane-component ' + (inView ? 'plane-pass' : '')} ref={ref}>
       <div className="banner-side">
         {props.plane}
       </div>
