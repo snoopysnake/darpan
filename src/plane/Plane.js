@@ -1,23 +1,22 @@
 import React from 'react';
 import './Plane.css';
+import { Link } from 'react-scroll';
 
-class Plane extends React.Component {
-  render() {
-    return (
-        <div className="plane-component">
-            <div className="banner-side">
-                {this.props.plane}
-            </div>
-            <a href="#summary">
-                <div className="banner" id="summary">
-                    { this.props.text }
-                    <div className="notch"></div>
-                </div>
-            </a>
-            <div className="banner-side"></div>
+function Plane(props) {
+  return (
+    <div className="plane-component">
+      <div className="banner-side">
+        {props.plane}
+      </div>
+      <Link to={props.text.toLowerCase()} smooth={true} duration={500}>
+        <div className="banner" id="summary">
+          {props.text}
+          <div className="notch"></div>
         </div>
-    );
-  }
+      </Link>
+      <div className="banner-side"></div>
+    </div>
+  );
 }
 
 export default Plane;

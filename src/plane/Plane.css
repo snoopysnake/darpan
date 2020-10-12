@@ -1,44 +1,73 @@
 .plane-component {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  animation: pass 1s linear;
 }
 
 .plane {
-    height: 7em;
+  height: 7em;
+}
+
+.plane-pass {
+  animation: pass 1s linear;
+}
+
+.active {
+  background-color: red;
+}
+
+.prop-1 {
+  animation: fly .2s infinite step-end;
+}
+
+.prop-2 {
+  animation: fly .2s infinite step-end .5s;
 }
 
 .banner {
-    background-color: #FBEFD8;
-    font-size: 3em;
-    font-weight: bold;
-    padding: .5em 2em;
-    margin: .67em 0;
-    cursor: pointer;
-    width: 6em;
-    position: relative;
+  background-color: #FBEFD8;
+  font-size: 3em;
+  font-weight: bold;
+  padding: .5em 2em;
+  margin: .67em 0;
+  cursor: pointer;
+  width: 6em;
+  position: relative;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
+  user-select: none;
 }
 
 .notch {
-    width: 0; 
-    height: 0; 
-    border-top: 56px solid transparent;
-    border-bottom: 56px solid transparent;
-    border-right: 40px solid skyblue;
-    position: absolute;
-    right: 0;
-    top: 0;
+  width: 0; 
+  height: 0; 
+  border-top: 56px solid transparent;
+  border-bottom: 56px solid transparent;
+  border-right: 40px solid skyblue;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .banner-side {
-    display: flex;
-    justify-content: flex-end;
-    width: calc(50vw - 8em);
-    height: 7em;
+  display: flex;
+  justify-content: flex-end;
+  width: calc(50vw - 8em);
+  height: 7em;
+}
+
+@keyframes fly {
+  0% { opacity: .6; }
+  50% { opacity: 1; }
+  100% { opacity: .6; }
+}
+
+@keyframes pass {
+  0% { transform: translate(100%); }
+  100% { transform: translate(0); }
 }
