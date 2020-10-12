@@ -6,7 +6,7 @@ class HeaderButton extends React.Component {
     return (
       <button>
         <a className="button-text" href={`#${this.props.text.toLowerCase()}`}>{this.props.text}</a>
-        {this.props.render()}
+        {this.props.cloud}
       </button>
     );
   }

@@ -1,0 +1,44 @@
+.plane-component {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.plane {
+    height: 7em;
+}
+
+.banner {
+    background-color: #FBEFD8;
+    font-size: 3em;
+    font-weight: bold;
+    padding: .5em 2em;
+    margin: .67em 0;
+    cursor: pointer;
+    width: 6em;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.notch {
+    width: 0; 
+    height: 0; 
+    border-top: 56px solid transparent;
+    border-bottom: 56px solid transparent;
+    border-right: 40px solid skyblue;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.banner-side {
+    display: flex;
+    justify-content: flex-end;
+    width: calc(50vw - 8em);
+    height: 7em;
+}
