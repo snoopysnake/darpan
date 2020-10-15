@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/darpan/static/css/main.cff61cec.chunk.css",
-    "main.js": "/darpan/static/js/main.a16d63fb.chunk.js",
-    "main.js.map": "/darpan/static/js/main.a16d63fb.chunk.js.map",
+    "main.css": "/darpan/static/css/main.d6da39b9.chunk.css",
+    "main.js": "/darpan/static/js/main.175c7c76.chunk.js",
+    "main.js.map": "/darpan/static/js/main.175c7c76.chunk.js.map",
     "runtime-main.js": "/darpan/static/js/runtime-main.86b689cb.js",
     "runtime-main.js.map": "/darpan/static/js/runtime-main.86b689cb.js.map",
     "static/js/2.004d0ab5.chunk.js": "/darpan/static/js/2.004d0ab5.chunk.js",
     "static/js/2.004d0ab5.chunk.js.map": "/darpan/static/js/2.004d0ab5.chunk.js.map",
     "index.html": "/darpan/index.html",
-    "precache-manifest.8f2f109f2e960733224edc707c7ea472.js": "/darpan/precache-manifest.8f2f109f2e960733224edc707c7ea472.js",
+    "precache-manifest.633ae407fb7fe30acf96b0cd7e8db418.js": "/darpan/precache-manifest.633ae407fb7fe30acf96b0cd7e8db418.js",
     "service-worker.js": "/darpan/service-worker.js",
-    "static/css/main.cff61cec.chunk.css.map": "/darpan/static/css/main.cff61cec.chunk.css.map",
+    "static/css/main.d6da39b9.chunk.css.map": "/darpan/static/css/main.d6da39b9.chunk.css.map",
     "static/js/2.004d0ab5.chunk.js.LICENSE.txt": "/darpan/static/js/2.004d0ab5.chunk.js.LICENSE.txt",
     "static/media/cloud1.3f4fe8b0.svg": "/darpan/static/media/cloud1.3f4fe8b0.svg",
     "static/media/cloud2.f659b38f.svg": "/darpan/static/media/cloud2.f659b38f.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.86b689cb.js",
     "static/js/2.004d0ab5.chunk.js",
-    "static/css/main.cff61cec.chunk.css",
-    "static/js/main.a16d63fb.chunk.js"
+    "static/css/main.d6da39b9.chunk.css",
+    "static/js/main.175c7c76.chunk.js"
   ]
 }

@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "20e1a393cf1375bc17c40a2b45be1b3c",
+    "revision": "013e591fbddb42b7a6ec901bd2b095df",
     "url": "/darpan/index.html"
   },
   {
-    "revision": "ffa6c67b9f3773d9087d",
-    "url": "/darpan/static/css/main.cff61cec.chunk.css"
+    "revision": "ac026d9466bae97ef49d",
+    "url": "/darpan/static/css/main.d6da39b9.chunk.css"
   },
   {
     "revision": "e354d40c00d09fb4aafe",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/darpan/static/js/2.004d0ab5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ffa6c67b9f3773d9087d",
-    "url": "/darpan/static/js/main.a16d63fb.chunk.js"
+    "revision": "ac026d9466bae97ef49d",
+    "url": "/darpan/static/js/main.175c7c76.chunk.js"
   },
   {
     "revision": "9b6f29c1ac8f1c130b57",
