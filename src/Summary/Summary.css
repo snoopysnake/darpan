@@ -1,5 +1,4 @@
 .summary-component {
-  box-sizing: border-box;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -8,5 +7,23 @@
 }
 
 .summary-cloud {
+  display: flex;
+  flex-direction: row;
+  margin: 2em 0;
+}
+
+.summary-cloud-center {
+  text-align: left;
+  box-sizing: border-box;
+  padding: 3em;
   max-width: 1024px;
+  font-size: 1.25em;
+  line-height: 1.3em;
+  font-family: "lato", sans-serif;
+  color: rgb(80, 85, 92);
+  background-color: rgb(227, 253, 255);
+}
+
+.summary-cloud-side {
+  width: 200px;
 }
