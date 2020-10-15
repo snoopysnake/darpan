@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/darpan/static/css/main.cff61cec.chunk.css",
+    "main.js": "/darpan/static/js/main.a16d63fb.chunk.js",
+    "main.js.map": "/darpan/static/js/main.a16d63fb.chunk.js.map",
+    "runtime-main.js": "/darpan/static/js/runtime-main.86b689cb.js",
+    "runtime-main.js.map": "/darpan/static/js/runtime-main.86b689cb.js.map",
+    "static/js/2.004d0ab5.chunk.js": "/darpan/static/js/2.004d0ab5.chunk.js",
+    "static/js/2.004d0ab5.chunk.js.map": "/darpan/static/js/2.004d0ab5.chunk.js.map",
+    "index.html": "/darpan/index.html",
+    "precache-manifest.8f2f109f2e960733224edc707c7ea472.js": "/darpan/precache-manifest.8f2f109f2e960733224edc707c7ea472.js",
+    "service-worker.js": "/darpan/service-worker.js",
+    "static/css/main.cff61cec.chunk.css.map": "/darpan/static/css/main.cff61cec.chunk.css.map",
+    "static/js/2.004d0ab5.chunk.js.LICENSE.txt": "/darpan/static/js/2.004d0ab5.chunk.js.LICENSE.txt",
+    "static/media/cloud1.3f4fe8b0.svg": "/darpan/static/media/cloud1.3f4fe8b0.svg",
+    "static/media/cloud2.f659b38f.svg": "/darpan/static/media/cloud2.f659b38f.svg",
+    "static/media/cloud3.feeca4b2.svg": "/darpan/static/media/cloud3.feeca4b2.svg",
+    "static/media/cloud4.a90afb63.svg": "/darpan/static/media/cloud4.a90afb63.svg",
+    "static/media/cloud5.bb029ae0.svg": "/darpan/static/media/cloud5.bb029ae0.svg",
+    "static/media/cloud6.34aabc2a.svg": "/darpan/static/media/cloud6.34aabc2a.svg",
+    "static/media/plane1.5a2b1e67.svg": "/darpan/static/media/plane1.5a2b1e67.svg",
+    "static/media/sun.007d1364.svg": "/darpan/static/media/sun.007d1364.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86b689cb.js",
+    "static/js/2.004d0ab5.chunk.js",
+    "static/css/main.cff61cec.chunk.css",
+    "static/js/main.a16d63fb.chunk.js"
+  ]
+}
